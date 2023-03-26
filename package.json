@@ -1,8 +1,11 @@
 {
-  "name": "nuxt3-editorjs",
+  "name": "@dicarbene/nuxt3-editorjs",
   "version": "1.0.0",
-  "description": "My new Nuxt module",
-  "repository": "dicarebene/nuxt3-editorjs",
+  "description": "editorjs nuxt3 module (for windife project personal usage)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dicarebene/nuxt3-editorjs.git"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -42,5 +45,20 @@
     "eslint": "^8.36.0",
     "nuxt": "^3.3.1",
     "vitest": "^0.29.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dicarebene/nuxt3-editorjs/issues"
+  },
+  "homepage": "https://github.com/dicarebene/nuxt3-editorjs#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "nuxt",
+    "editorjs",
+    "vue",
+    "nuxt3",
+    "vue3"
+  ],
+  "author": "dicarbene"
 }
