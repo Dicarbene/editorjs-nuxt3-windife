@@ -104,6 +104,6 @@ const default_data = {
 };
 const dat = ref(default_data);
 const save = () => {
-  console.log(foo);
+  console.log(dat.value);
 };
 </script>

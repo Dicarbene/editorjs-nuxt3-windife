@@ -23,7 +23,7 @@ export default defineNuxtModule<ModuleOptions>({
     const resolver = createResolver(import.meta.url)
     addComponent({
       name: 'EditorClient', // name of the component to be used in vue templates
-      filePath: resolver.resolve('runtime/components/EditorClient.vue')
+      filePath: resolver.resolve('runtime/components/EditorClient.client.vue')
     })
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolver.resolve('./runtime/plugin'))
